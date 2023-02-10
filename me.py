@@ -32,7 +32,6 @@ color_blood_type = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Blood Type: "
 color_religion = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Religion: "
 color_sex = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Sex: "
 
-#
 print(color_name + c_name)
 print(color_age + c_age)
 print(color_address + c_address)
