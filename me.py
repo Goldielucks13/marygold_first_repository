@@ -12,6 +12,7 @@ course = "Bachelor of Science in Information System"
 blood_type = "pass"
 religion = "Roman Catholic"
 sex = "Female"
+status = "single"
 
 #colored string
 c_name = Fore.GREEN + Style. BRIGHT + name
@@ -22,6 +23,7 @@ c_course = Fore.LIGHTMAGENTA_EX + Style. BRIGHT + course
 c_blood_type = Fore.LIGHTCYAN_EX + Style. BRIGHT + blood_type
 c_religion = Fore.LIGHTBLUE_EX + Style. BRIGHT + religion
 c_sex = Fore.MAGENTA + Style. BRIGHT + sex
+c_status = Fore.GREEN + Style.BRIGHT + status
 
 color_name = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Name: "
 color_age = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Age: "
@@ -31,6 +33,7 @@ color_course = Fore.LIGHTWHITE_EX + Style.BRIGHT + "course: "
 color_blood_type = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Blood Type: "
 color_religion = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Religion: "
 color_sex = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Sex: "
+color_status = Fore.LIGHTWHITE_EX + Style.BRIGHT + "Status"
 #
 print(color_name + c_name)
 print(color_age + c_age)
@@ -40,3 +43,4 @@ print(color_course + c_course)
 print(color_blood_type + c_blood_type)
 print(color_religion + c_religion)
 print(color_sex, c_sex)
+print(coolor_status, c_status)
